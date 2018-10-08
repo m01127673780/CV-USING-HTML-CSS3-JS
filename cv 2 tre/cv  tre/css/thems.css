@@ -1,0 +1,642 @@
+ 
+/*=============== ======start timeline================== ==*/
+.timeline-color{
+ width: 100%;
+	height: 1500px;
+  }
+.timeline{
+max-width: 1200px;
+	margin: auto;
+ 	position: relative;
+
+}
+.timeline:before{
+   content: "";
+  position: absolute;
+	width: 8px;
+ 	background: #fff;
+	top: 1.2%;
+	bottom: 0;
+margin-left: -4px;
+}
+
+.container-flex{
+
+/*background: #ffcc00;*/
+	width: 50%;
+	padding: 10px 40px ;
+	position: relative;
+}
+.content{
+background: #fff;
+	padding: 20px 30px ;
+	border-radius: 5px;
+}
+.container-flex:after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    right: -3.2%;
+    border: 4px solid #ff9f55;
+    z-index: 9;
+    top: 50px;
+    font-family: "fontAwesome";
+    content: "\f0b1";
+    color: #888;
+    /* margin-left: 50px; */
+    text-align: center;
+    line-height: 2;
+}
+
+
+.cont-left{
+
+left: 0;
+}
+.cont-right{
+left: 50%;
+}
+.cont-right:after{
+	left: -15px;
+
+}
+
+.cont-left:before{
+ content: "";
+display: block;
+	position: absolute;
+	border-style: solid;
+	border-width: 13px; 13px 12px 10px ;
+	border-color: transparent  transparent  transparent #fff;
+	width: 0;
+	height: 0;
+	right: 15px;
+	top: 55px;
+	
+}
+
+.cont-right:before{
+
+content: "";
+display: block;
+	position: absolute;
+	border-style: solid;
+	border-width: 13px; 13px 12px 10px ;
+	border-color: transparent #fff transparent  transparent ;
+	width: 0;
+	height: 0;
+	left: 15px;
+	top: 55px;
+ }
+
+.para-time{
+    margin-top: 0;
+    line-height: 2;
+    font-size: 17px;
+    font-weight: bold;
+    color: #555;
+	margin-top: 20px;
+}
+ .content .icon-time{
+    font-size: 22px;
+    color: #555;
+    float: right;
+    position: absolute;
+    right: 32%;
+    font-weight: bold;
+}
+
+.content .h-span{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1;
+	color: #555;
+	position: relative;
+	margin-right: -13%;
+ }
+@media (max-width: 400px)
+
+/*@media(max-width:400px)*/
+{
+.content .h-span{
+      font-size: 16px!important;
+     padding-right: 20%!important;
+	 right: 4%!important;
+ 
+    right: 2%;
+ 
+	color: red
+
+ }
+
+}
+@media (max-width: 768px)
+
+ {
+.content .h-span{
+        font-size: 16px!important;
+        padding-right: 20%!important;
+	    right: 4%!important;
+	    margin-right: -13% !important;
+        right: 2%;
+ 	    color: #00f;
+	    font-size: 18px!important;
+         padding-right: 0%!important;
+         right: 1%!important;
+
+ }
+ 	.icon-time:before{
+		color: #00f;
+ 
+	} 
+}
+
+.content .icon-time:after {
+    content: "";
+    height: 4px;
+    widows: 2%;
+    display: block;
+    background: #b2b2b2;
+    /* left: 5%; */
+    position: absolute;
+    width: 1100%;
+    right: 3%;
+    /* padding-top: 20px; */
+    margin-top: 8px;
+}
+
+ .content .ico-fa:bfore{
+     position: absolute!important;
+     margin-left: 45px !important;
+	 
+}
+
+/*start-mide -----------------------------------------------------------*/
+@media(max-width:768px){
+
+	.timeline:before{
+	
+	
+	left: 20px!important;
+	}
+.container-flex {
+ width: 100%;
+	padding-left: 70px;
+	padding-right: 20px;
+ 
+}.container-flex:after{
+  			left:2px ;
+	width: 40px;
+	height:40px;
+
+
+}
+ 
+
+	.cont-right{
+left: 0;
+}
+	
+	
+	.cont-left:before ,.cont-right:before {
+left: 44px;
+border-color: transparent #ffffff transparent transparent;
+}	
+	
+	
+}
+
+*{
+
+box-sizing: :border-box;
+}
+
+
+ 
+
+@media(max-width:668px){
+.content .icon-time:after{
+ color: red!important; 
+widows: 132px!important; 
+}
+}
+@media(max-width: 768px){
+.content .h-span{
+	
+	font-size: 20px!important;
+	color: #00f!important;
+	}
+ 	.content .icon-time:after{
+ widows: 132px!important; 
+}
+	}
+	
+ @media(max-width:615px){
+	.content .icon-time{
+	display: none!important;  
+	
+	}
+
+}
+/*=============== ======End timeline====================*/
+.start{}
+/*=============== ======start upper-bar================== ==*/
+*{
+
+box-sizing: :border-box;
+}
+body{
+
+	 	background-image: url(/img/black-paper.png)!important;
+color: #000;
+}
+
+
+@media(max-width:768px){
+body{
+  
+ }
+}
+.section-overlay{
+
+/*	 	background:rgba(0,0,0,0.3);*/
+    color: #000;
+    width: 100%;
+	height: 100%;
+background-size: cover;
+
+} 
+ 
+a:hover{
+	text-decoration: none;
+}
+body{
+ 	font-family: "Droid Arabic Kufi", sans-serif;
+	background: #fff;
+	
+} 
+
+/*-----------start navbar-----------------------*/
+
+/*==============start All defrent page=================*/
+
+
+ 
+
+/*-------start-host-----------------------------------------*/
+
+.All-host{
+
+   width: 100%;
+	height: 1260px;
+}
+
+   .All-host .slider-host {
+    width: 100%;
+	height: 470px;
+     color: #fff;
+	  background-image: url(/img/design-1.jpg);
+	  background-repeat: no-repeat;
+	  background-size: cover;
+   
+}
+.tow-botn{padding-top: 300px;
+}
+ .tow-botn span .btn-see-detels{
+
+    background: #25ccc2;
+    border-color: #157670;
+	 padding-right: 12px;
+	 padding-left: 12px;
+	 font-size: 18px;
+	 font-weight: bold;
+
+}
+.tow-botn h5 {
+
+font-weight: bold;
+} 
+/*================= start section DDDDDefrent=================*/
+ 
+/*-------------start min-title-border-----------------------*/
+.img-title {
+    margin-top: 5.5%;
+/*    margin-left: -5%;*/
+        background: #000;
+	border: 2px  solid #25ccc2;
+
+}
+.img-title{
+
+    position: absolute;
+    margin-top: 2.2%;
+		margin-right: 1.5%;
+			margin-left: 1.5%;
+ } 
+
+.img-title {
+    margin-top: 5.5%;
+    margin-left: -5%;
+    
+}
+
+.min-title{
+padding-top:7%;
+	padding-bottom:9%;
+ 
+}
+
+  .h3-border:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #25ccc2;
+    margin: 6px auto 0px;
+    padding-right: -2%;
+    margin-top: 2.5%;
+    margin-left: 42%;
+}
+
+
+.h3-border:before {
+     
+      content: "";
+    display: block;
+    background: #25ccc2;
+    width: 100px;
+    height: 3px;
+    margin: 0 auto;
+    margin-top: 6.2%;
+    position: absolute;
+    left: 51%;
+    margin-top: 6.3%;
+    margin-left: 2.2%;
+}
+
+.h3-border:after,.h3-border:before {
+
+    background:#25ccc2;
+ 	height: 7px;
+     background:#000;
+border: 2px solid #25ccc0;
+  }
+.h3-border:before{
+    margin-left:0px;
+
+}
+
+
+.h3-border:after{
+    margin-left: 43%;
+
+}
+
+
+.h3-border{
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 1#;
+}
+
+
+@media(max-width:992px){
+	.img-title-one{
+	
+     left:  34%!important;
+	}
+	.img-title-tow{
+	
+      left: 73%!important;
+	}
+	.img-title-one{
+	
+    left: 35%;
+	}
+
+.h3-border {
+    font-size: 22px;
+    font-weight: 700;
+    padding-bottom: 1#;
+	color:#00f!important; 
+}
+	.h3-border:after {
+    margin-left: 32%!important; 
+    width: 38%!important; 
+    margin-top: .6%!important; 
+}
+}
+@media(max-width:850px){
+.h3-border {
+    font-size: 21px;
+	font-weight: bold;
+}
+	}
+
+@media(max-width:768px){
+	.img-title-one{
+	
+     left:  34%!important;
+	}
+	.img-title-tow{
+	
+          margin-left: 1%!important;
+	}
+	.img-title-one{
+	
+    margin-left: -13%!important;
+	}
+
+.h3-border {
+     font-size: 25px!important;
+	color: #000!important; 
+}
+	.h3-border:after {
+    margin-left: 22%!important; 
+    width: 56%!important; 
+    margin-top: -.5%!important; 
+}
+}
+
+
+@media(max-width:668px){
+	
+	.h3-border {
+    font-size: 19px!important;
+    color: #ffcc00!important;
+}
+	
+}
+@media(max-width:400px){
+.h3-border {
+     font-size: 19px!important;
+color:	 #000!important; 
+}
+	.h3-border:after {
+    margin-left: 16%!important;
+    width: 75%!important;
+    margin-top: -.5%!important;
+}
+	.img-title-one {
+    left: 22%!important;
+}
+	
+	.img-title-tow {
+    left: 82%!important;
+}
+}
+
+
+
+
+
+/*-------------End min-title-border-----------------------*/
+ 
+
+/*===================start serves=========================*/
+
+ .main-title-h1-serves {
+    text-align: center;
+    margin-bottom: 55px;
+    position: relative;
+    padding-top: 30%;
+    color:#f7747a;
+}
+ 
+ 
+.container-serves .main-title-h1 h1:after {
+  
+    width:12%;
+    right: 35%;
+}
+.container-serves .main-title-h1 h1:before {
+  
+    width: 12%;
+      left: 35%;
+}
+/*---------*/
+
+
+
+@media(max-width:768px){
+
+
+ .h3-border:after {
+    margin-left: 32%;
+}
+}
+
+
+
+.container-serves .main-title-h1 {
+    
+    color: #000!important;
+}
+/*---------------*/
+ 
+/*==============start main-title-h1 ======================*/
+
+@media(max-width:992px){
+.main-title-h1 h1:after {
+    
+    right: 32%!important;
+    width: 75px!important;
+}
+ 	.main-title-h1 h1:before {
+     width: 70px!important; 
+    left: -20%!important;
+    margin: 0 auto!important;
+    left: 34%!important;
+}
+	
+}
+
+
+.main-title-h1 h1 {
+    margin-bottom: 20px;
+    }
+
+ .main-title-h1 {
+    text-align: center;
+    margin-bottom: 55px;
+    position: relative;
+    padding-top: 30px;
+    color:#f7747a;
+}
+.main-title-h1 h1:before {
+    position: absolute;
+    bottom: 8px;
+    height: 2px;
+    content: " ";
+    display: block;
+    background: #00cabe;
+    width: 6%;
+    left:-20%;
+    margin: 0 auto;
+    left: 42%;
+	
+}
+ 
+.main-title-h1 h1 {
+ 	 font-size: 20px;
+
+}
+
+.main-title-h1 h1:after {
+    position: absolute;
+    bottom: 8px;
+    height: 2px;
+    content: " ";
+    display: block;
+    background: #00cabe;
+  
+right: 41%;
+	width: 100px;
+}
+/*=============Endstart our work=============*/
+ 
+/*--------------------*/
+.main-title-h1 h1{
+font-size: bold;
+	font-weight: bold;
+
+}
+/*==============start divrent===================================*/
+  .img-title-tow  {
+ 
+    left:65%;
+}
+
+ .img-title{
+     left: 66%;
+	  margin-top: 55px; 
+     margin-left: -5%; 
+     background: #000;
+    border: 2px solid #25ccc2;
+    margin-top: 2.8%;
+}
+.img-title-one{
+left: 42%
+}
+ .h3-border:after {
+    margin-left: 38%;
+    width:25%;
+margin-top: 25px;
+}
+.h3-border:before {
+
+	display: none;
+}
+
+
+
+
+
+ .wandiw{
+    font-family: "Droid Arabic Kufi", sans-serif;
+    background: url(/img/background-img.png);
+}
+

@@ -1,0 +1,248 @@
+  
+
+
+  /*
+theme Name: motatlabaty A to Z
+progect:
+firstColors : #1558832;
+lastColors : #1558832;
+*/
+/*================================start upper-bar==================================*/
+
+body{
+	background-image: url(../../img/background-img.png)!important;
+ 	color: #000;
+     width: 100%;
+   	 
+}
+body {
+     color: #000;
+     width: 100%;
+}
+
+
+
+
+ /*========================================================================*/
+
+
+
+ /*=========================================================================*/
+ 
+.section-overlay{
+      color: #000;
+    width: 100%;
+	height: 100%;
+background-size: cover;
+
+} 
+ 
+a:hover{
+	text-decoration: none;
+}
+.color_d{
+    color: #b6b4b4;
+	line-height: 2;
+}
+.f_17{
+ 	font-size: 17px;
+    margin-right: -4px;
+	line-height: 2;
+}
+.p_2{
+  font-size: 18px;
+    text-align: left;
+    margin-left: 176px;
+    /* padding: 0; */
+    margin-right: 50px;
+    margin: 0;
+    margin-left: 50px;
+}
+
+h5{
+  color: #8d5d8d;
+}
+ .fff{
+color: #fff;
+}
+/*=======================================*/
+
+
+
+.row {
+	
+       background: #000;
+    color: #fff;
+    padding: 10px 0 ;
+    width: 63%;
+    margin-left: 14%;
+}
+
+.r{
+
+border-left: 2px dashed #999;
+	    border-left: 2px dashed #999;
+    margin: 0;
+    padding-right: 0;
+}
+
+
+.sercal{
+
+	width: 10px;
+    height: 10px;
+    background: #eee;
+    display: block;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+
+.d_sercal{
+
+margin: 10px 0;
+
+}
+
+i{
+
+    font-size: 23px;
+    color: #090909;
+    background: #b6b4b4;
+    border-radius: 50%;
+     padding: 7px 10px;
+	 width: 36px;
+    height: 34px;
+    text-align: left;
+}
+
+.Social_Media div:nth-child(3) i {
+background: navy;
+	color: #fff;
+
+}
+
+.Social_Media div:nth-child(2) i {
+background:blue;
+	color: #fff;
+
+}
+
+.Social_Media div:nth-child(1) i {
+background: #f00;
+	color: #fff;
+
+}
+
+.Social_Media div:nth-child(4) i {
+background: #e4405f;
+	color: #fff;
+
+}
+.Social_Media div:nth-child(5) i {
+background: #00f;
+	color: #fff;
+ }
+.Social_Media div:nth-child(6) i {
+background: #00f;
+	color: #fff;
+ }
+.Social_Media div:nth-child(7) i {
+background: #00f;
+	color: #fff;
+ }
+
+.Social_Media div:nth-child(8) i {
+background: #00f;
+	color: #fff;
+ }
+.Social_Media div:nth-child(9) i {
+background: #00f;
+	color: #fff;
+ }
+ 
+
+.like2{
+font-weight: bold;
+    font-size: 15px;
+
+}
+.I_like{
+    border-bottom: 3px dashed #999;
+    display: inline-block;
+    padding-bottom: 17px;
+}
+.img_border{
+ width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    border: 2px solid #ececec;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    position: relative;
+    overflow: hidden;
+     padding: 5px;
+	margin-bottom: 51px;
+}
+
+/*l---------l----------*/
+
+.d_c_img{
+    position: absolute; */
+    border: 2px solid #ccc;
+    margin: 9px;
+    width: 89%;
+    height: 89%;
+     border-radius: 50%;
+    position: relative;
+    padding-left: -75px;
+    background: #888;
+	overflow: hidden;
+	border: 2px solid #ccc;
+}
+.img{
+	position: absolute;
+	 height: 100%;
+	 width: 100%;
+	background-image: url(../../img/2.jpg);
+/*	background-image: url(../../img/3.jpg);*/
+/*	background-image: url(../../img/papuna.PNG);*/
+/*	background-image: url(../../img/g.png);*/
+/*	background-image: url(../../img/Army.jpg);*/
+/*	background-image: url(../../img/d.jpg);*/
+/*	background-image: url(../../img/g.jpg);*/
+		background-image: url(../../img/1%D9%82%D9%85%D9%8A%D8%B5fff.jpg);
+/*	background-image: url(../../img/5000.jpg);*hhhhhhhh/*/
+/*	background-image: url(../../img/2_000.PNG);*/
+/*	background-image: url(../../img/m22.jpg);*/
+/*	background-image: url(../../img/m3.jpg);*/
+
+  	-webkit-background-size:cover;
+	background-size:cover ;
+	transform: scale(1);
+ }
+.r_sercal .sercal{
+	width: 7px;
+	height: 7px;
+	margin: 10px 0;
+
+}
+.fa-star{
+color: #ffcc00;
+
+}
+.SKILLS ul li {
+    list-style: none;
+    text-align: left;
+	margin-left: -40px;
+}
+.about-me ul li img{
+    margin: 5px 0;
+	width: 30px ;
+	height: 30px;
+	margin-right: 5px;
+    background: #ec0c0c;
+	border-radius: 50%;
+}
+
